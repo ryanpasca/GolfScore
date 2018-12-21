@@ -1,0 +1,59 @@
+.background-silver {
+ background-color: silver;   
+}
+
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    background-color: light blue;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.nav-border {
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    padding: 0px 15px 0px 15px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+}
+li, p {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
